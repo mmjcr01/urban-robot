@@ -1,4 +1,16 @@
-img{
-border-radius: 16px;
+body{
+  background-image: url(assets/bg-image\ \(1\).jpg);
+  background-size: cover;
+}
 
+#page{
+  width: 800px;
+  padding: 24px;
+  background-color: #F0E8C2;
+  margin: 49px auto;
+}
+
+img{
+  
+  border-radius: 16px;
 }
