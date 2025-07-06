@@ -17,7 +17,12 @@ header{
   color: var(--text-color-primary);
    margin-bottom: 8px;
 }
-
+#profile img{
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 header .container{
   display: flex;
