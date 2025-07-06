@@ -1,0 +1,15 @@
+footer{
+   display: flex; 
+   padding-block: 24px;
+   gap: 24px;
+}
+
+footer span:nth-child(1){
+   margin-right: auto;
+}
+footer span:nth-child(2){
+   position: absolute;
+  left: 47%;
+  transform: translateX(-50%);
+  font: var(--text-md);
+}
