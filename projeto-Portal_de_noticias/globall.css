@@ -38,14 +38,6 @@ h1, h2, h3, span, p{
   font: inherit; 
 }
 
-.grid{
-  display: grid;
-}
-
-.grid-flow-col{
-  grid-auto-flow: column;
-}
-
 .container{
   max-width: 1280px;
   padding-inline: 32px;
@@ -63,4 +55,12 @@ div{
   border: solid 1px var(--stroke-color);
   border-inline: none;
   justify-content: space-between;
+}
+
+img{
+  max-width: 100%;
+}
+
+main{
+  margin-top: 40px;
 }
