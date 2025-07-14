@@ -17,7 +17,7 @@
   --h3: 800 14px/140% var(--font-family);
   --text-span: 600 14px/145% var(--font-family);
   --text: 400 16px/140% var(--font-family);
-  --tex-sm: 400 14px/160% var(--font-family);  
+  --text-sm: 400 14px/160% var(--font-family);  
 }
 body{
   font: var(--text);
@@ -63,4 +63,12 @@ img{
 
 main{
   margin-top: 40px;
+}
+
+.content-tag{
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font: 400 10px/1.2 var(--font-family);
 }
